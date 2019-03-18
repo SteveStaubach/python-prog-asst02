@@ -1,24 +1,41 @@
-# Second programming assignment in Python
 
-This is a required graded programming assignment in MicroPython for the micro:bit.
+         __                 __
+       //_/   <> _//_     //_/   //   /\  ͞͞\͞ ͞    _\\_  \\͞͞ ͞    \\͞ ͞ \
+      //  /  //  //      //  /  //   //_\  ͞͞ ͞ ͞\\   \\   \\͞͞͞ ͞    \\͞ \
+     //__/  //  //      //__/  //_  //   \   _\\   \\   \\__   \\  \
 
-## Requirements
+    Steve Staubach
+    Class 1400 MSU Denver
+    
+   I decided to create something based on space invaders, this was it.
+   
+   Creation process: I googled space invaders microbit, and found this
+   https://www.youtube.com/watch?v=QDaIOIpY38A @ IntenseComputerTrain
+   Who wanted to create a new game simmilar to space invaders but had
+   deviated from the design of it to create his own thing. This was an
+   attempt to create a kind of shooter game based on space invaders.
+   I followed along and borrowed the movement concept and started work
+   inside of the same block editor program from microsoft.
+   
+   I decided to deviate from his design in how bullets are removed and
+   decided to approach the game in a more classical way by using the
+   movement concept at the end of a few loops apply to the y value in
+   the same light as the original space invaders. I also borrowed the
+   concept of the bullets firing, but I figured out how hits worked.
 
-1. MicroPython.
-   For the assignment you should implement a non-trivial project in MicroPython for the micro:bit. Look at the [MicroPython Tutorials assignment](https://github.com/ivogeorg/micropython-tutorials) for detailed guidance.
-   
-2. Topic.
-   You are free to pick any topic or project idea. Look at the [micro:bit awesome list](https://github.com/carlosperate/awesome-microbit) for inspiration. The following are *strict* requirements:
-   - Non-triviality: The micro:bit is targeted at kids but is powerful enough for non-trivial projects. Please, take that in mind.
-   - Originality: You can borrow a significant amount of code from an existing project, but you have to: (i) acknowledge it, and (ii) extend it with some original code.
-   - Functionality: Your project should have clear input and output, and it should be either interactive (e.g. in the case of a game), or autonomous (e.g. in the case of an environmental monitor). Feel free to add external components and connect them to the micro:bit as part of your design.
-   
-2. Github.
-   You should fork this assignment repository and clone it. You should commit all your code to your local clone and push them to the remote repository on Github, before the deadline. There is no need for any further submission.
-   
-3. README.
-   You need to describe in detail your project in the README in the provided section below.
-   
-## Project description
+   From that point on I closed the video and played around with it, 
+   as well as the actual code without any additional references.
+   It was pure exploratory shannanigans from that point forward!
 
-Your work here...
+   Once I had the general game down, I decided I needed to create some
+   cool lazer sounds and hits, so I played around with time scales and
+   settled on some noises I think worked out well. I tried to make the
+   sounds for the enemy as well and explosions, but I ran into some
+   issues with the built-in gameover function where it would loop the
+   sound forever, even if I put in pauses or tried to kill the sounds.
+   
+   This was pretty fun, and I am looking forward to getting some of my
+   team mates to play the game and try it out tomorrow during class!
+
+   - Steve Staubach
+   P.S. Ascii art has and always will be cool.
