@@ -38,4 +38,5 @@
    team mates to play the game and try it out tomorrow during class!
 
    - Steve Staubach
-   P.S. Ascii art has and always will be cool.
+
+P.S. Ascii art has and always will be cool.
